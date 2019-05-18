@@ -1,0 +1,23 @@
+{
+  "name": "es2015-game-sample",
+  "private": true,
+  "version": "0.1.0",
+  "description": "",
+  "scripts": {
+    "build": "babel ./src --out-dir ./script && akashic-cli-scan asset script",
+    "start": "akashic-sandbox .",
+    "lint": "eslint src",
+    "test": "npm run lint"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "",
+  "devDependencies": {
+    "@akashic/akashic-cli-scan": "~0.2.12",
+    "@akashic/akashic-sandbox": "~0.13.55",
+    "babel-cli": "~6.26.0",
+    "babel-preset-env": "~1.7.0",
+    "eslint": "~5.4.0",
+    "rimraf": "~2.6.3"
+  }
+}

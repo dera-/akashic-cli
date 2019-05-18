@@ -2,9 +2,12 @@
 	"templates": {
 		"javascript": "javascript.zip",
 		"typescript": "typescript.zip",
+		"es2015": "es2015.zip",
 		"javascript-minimal": "javascript-minimal.zip",
 		"typescript-minimal": "typescript-minimal.zip",
+		"es2015-minimal": "es2015-minimal.zip",
 		"javascript-ichiba": "javascript-ichiba.zip",
-		"typescript-ichiba": "typescript-ichiba.zip"
+		"typescript-ichiba": "typescript-ichiba.zip",
+		"es2015-ichiba": "es2015-ichiba.zip"
 	}
 }
