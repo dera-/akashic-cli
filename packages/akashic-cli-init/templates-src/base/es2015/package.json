@@ -16,6 +16,7 @@
     "@akashic/akashic-sandbox": "~0.15.22",
     "@akashic/akashic-cli-scan": "~0.3.8",
     "@babel/cli": "7.7.7",
+    "@babel/core": "7.7.7",
     "@babel/preset-env": "7.7.7",
     "eslint": "5.16.0"
   }
