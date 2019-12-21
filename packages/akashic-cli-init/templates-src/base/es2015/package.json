@@ -1,9 +1,10 @@
 {
-  "name": "javascript-game-sample",
+  "name": "es2015-game-sample",
   "private": true,
   "version": "0.1.0",
   "description": "",
   "scripts": {
+    "build": "babel src-es2015 --out-dir script && akashic-cli-scan asset script",
     "start": "akashic-sandbox .",
     "lint": "eslint script",
     "test": "npm run lint"
@@ -12,7 +13,10 @@
   "author": "",
   "license": "",
   "devDependencies": {
-    "@akashic/akashic-sandbox": "~0.13.55",
+    "@akashic/akashic-sandbox": "~0.15.22",
+    "@akashic/akashic-cli-scan": "~0.3.8",
+    "@babel/cli": "7.7.7",
+    "@babel/preset-env": "7.7.7",
     "eslint": "5.16.0"
   }
 }

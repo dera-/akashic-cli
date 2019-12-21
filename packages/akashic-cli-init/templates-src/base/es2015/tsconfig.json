@@ -1,10 +1,10 @@
 {
   "compilerOptions": {
-    "target": "ES5",
-    "lib": ["es5"],
+    "target": "ES2015",
+    "lib": ["es5", "dom", "ES2015"],
     "noImplicitAny": true,
     "module": "commonjs" ,
-    "outDir": "./script",
+    "outDir": "./src-es2015",
     "types" : []
   },
   "files": [
